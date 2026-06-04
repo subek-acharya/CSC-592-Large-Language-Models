@@ -30,8 +30,8 @@ ENV/
 *.ipynb_checkpoints
 
 # PyTorch model files
-*.pt
-*.pth
+# *.pt
+# *.pth
 *.safetensors
 *.bin
 
