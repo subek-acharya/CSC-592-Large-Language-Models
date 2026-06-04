@@ -1,0 +1,46 @@
+# Data and Checkpoints
+**/data/*
+**/checkpoint/*
+**/checkpoints/*
+**/logs/*
+**/trained-model/*
+**/runs/*
+
+# But keep .gitkeep files
+!**/data/.gitkeep
+!**/checkpoint/.gitkeep
+!**/checkpoints/.gitkeep
+!**/logs/.gitkeep
+!**/trained-model/.gitkeep
+!**/runs/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# PyTorch model files
+*.pt
+*.pth
+*.safetensors
+*.bin
+
+# TensorBoard
+events.out.tfevents.*
+
+# Output files
+*.csv
+*.log
+
+# OS
+.DS_Store
