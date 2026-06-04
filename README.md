@@ -1,1 +1,1 @@
-This repo consists coding assignments for CSC 592: Topics in Large Language Models
+This repo contains coding assignments for CSC 592: Topics in Large Language Models
